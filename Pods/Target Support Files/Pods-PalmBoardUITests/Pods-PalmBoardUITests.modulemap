@@ -1,0 +1,6 @@
+framework module Pods_PalmBoardUITests {
+  umbrella header "Pods-PalmBoardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

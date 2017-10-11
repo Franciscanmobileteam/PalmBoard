@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A06CB731F8CA38F0094FD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06CB721F8CA38F0094FD16 /* AppDelegate.swift */; };
+		3A06CB751F8CA38F0094FD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06CB741F8CA38F0094FD16 /* ViewController.swift */; };
+		3A06CB781F8CA38F0094FD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CB761F8CA38F0094FD16 /* Main.storyboard */; };
+		3A06CB7B1F8CA38F0094FD16 /* PalmBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A06CB791F8CA38F0094FD16 /* PalmBoard.xcdatamodeld */; };
+		3A06CB7D1F8CA38F0094FD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CB7C1F8CA38F0094FD16 /* Assets.xcassets */; };
+		3A06CB801F8CA38F0094FD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CB7E1F8CA38F0094FD16 /* LaunchScreen.storyboard */; };
+		3A06CB8B1F8CA3910094FD16 /* PalmBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06CB8A1F8CA3910094FD16 /* PalmBoardTests.swift */; };
+		3A06CB961F8CA3910094FD16 /* PalmBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06CB951F8CA3910094FD16 /* PalmBoardUITests.swift */; };
+		3A06CBAC1F8CB4050094FD16 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA41F8CB4050094FD16 /* Ubuntu-Bold.ttf */; };
+		3A06CBAD1F8CB4050094FD16 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA51F8CB4050094FD16 /* Ubuntu-BoldItalic.ttf */; };
+		3A06CBAE1F8CB4050094FD16 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA61F8CB4050094FD16 /* Ubuntu-Italic.ttf */; };
+		3A06CBAF1F8CB4050094FD16 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA71F8CB4050094FD16 /* Ubuntu-Light.ttf */; };
+		3A06CBB01F8CB4050094FD16 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA81F8CB4050094FD16 /* Ubuntu-LightItalic.ttf */; };
+		3A06CBB11F8CB4050094FD16 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA91F8CB4050094FD16 /* Ubuntu-Medium.ttf */; };
+		3A06CBB21F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBAA1F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf */; };
+		3A06CBB31F8CB4050094FD16 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBAB1F8CB4050094FD16 /* Ubuntu-Regular.ttf */; };
+		4E3E82516DD0B4F800DC663E /* Pods_PalmBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D39FF239DD9CDED985B244 /* Pods_PalmBoardUITests.framework */; };
+		A344AF5391EA92EB34D8307F /* Pods_PalmBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B76ECBDDADA1965E41D34FF /* Pods_PalmBoard.framework */; };
+		C79A6DF39EB91F3B289C7F0B /* Pods_PalmBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27127E74C312E3D3F9C83CB5 /* Pods_PalmBoardTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A06CB871F8CA3910094FD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A06CB671F8CA38E0094FD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A06CB6E1F8CA38E0094FD16;
+			remoteInfo = PalmBoard;
+		};
+		3A06CB921F8CA3910094FD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A06CB671F8CA38E0094FD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A06CB6E1F8CA38E0094FD16;
+			remoteInfo = PalmBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		175E3CE887B2A04FCBBA8FC8 /* Pods-PalmBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoardTests/Pods-PalmBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27127E74C312E3D3F9C83CB5 /* Pods_PalmBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PalmBoardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A3A41638E1AEA67EF1EBB4 /* Pods-PalmBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoardUITests/Pods-PalmBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A06CB6F1F8CA38E0094FD16 /* PalmBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalmBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A06CB721F8CA38F0094FD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A06CB741F8CA38F0094FD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A06CB771F8CA38F0094FD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A06CB7A1F8CA38F0094FD16 /* PalmBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PalmBoard.xcdatamodel; sourceTree = "<group>"; };
+		3A06CB7C1F8CA38F0094FD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A06CB7F1F8CA38F0094FD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A06CB811F8CA38F0094FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A06CB861F8CA3910094FD16 /* PalmBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalmBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A06CB8A1F8CA3910094FD16 /* PalmBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmBoardTests.swift; sourceTree = "<group>"; };
+		3A06CB8C1F8CA3910094FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A06CB911F8CA3910094FD16 /* PalmBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalmBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A06CB951F8CA3910094FD16 /* PalmBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmBoardUITests.swift; sourceTree = "<group>"; };
+		3A06CB971F8CA3910094FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A06CBA41F8CB4050094FD16 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		3A06CBA51F8CB4050094FD16 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3A06CBA61F8CB4050094FD16 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		3A06CBA71F8CB4050094FD16 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		3A06CBA81F8CB4050094FD16 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		3A06CBA91F8CB4050094FD16 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		3A06CBAA1F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3A06CBAB1F8CB4050094FD16 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		3A906EE31F8E0C4500DF546A /* Group 2220@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2220@2x.png"; sourceTree = "<group>"; };
+		3A906EE41F8E0C4600DF546A /* Group 2220@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2220@3x.png"; sourceTree = "<group>"; };
+		3A906EE51F8E0C4600DF546A /* Group 4081.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 4081.png"; sourceTree = "<group>"; };
+		3A906EE61F8E0C4600DF546A /* Group 2220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2220.png"; sourceTree = "<group>"; };
+		3A906EE71F8E0C4600DF546A /* Group 4081@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 4081@2x.png"; sourceTree = "<group>"; };
+		3A906EE81F8E0C4600DF546A /* Group 4081@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 4081@3x.png"; sourceTree = "<group>"; };
+		6864838F4CCB2721A1ED05EE /* Pods-PalmBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoard/Pods-PalmBoard.release.xcconfig"; sourceTree = "<group>"; };
+		79D39FF239DD9CDED985B244 /* Pods_PalmBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PalmBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76ECBDDADA1965E41D34FF /* Pods_PalmBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PalmBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82F6607E1D7D24DA76455EA /* Pods-PalmBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoardUITests/Pods-PalmBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D445FA43227A5B29AE14D7E6 /* Pods-PalmBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoardTests/Pods-PalmBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		F50E9195DEB2D99B70946C6E /* Pods-PalmBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoard/Pods-PalmBoard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A06CB6C1F8CA38E0094FD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344AF5391EA92EB34D8307F /* Pods_PalmBoard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A06CB831F8CA3910094FD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79A6DF39EB91F3B289C7F0B /* Pods_PalmBoardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A06CB8E1F8CA3910094FD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E82516DD0B4F800DC663E /* Pods_PalmBoardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B3BC11ECAB0C5C6BB319A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F50E9195DEB2D99B70946C6E /* Pods-PalmBoard.debug.xcconfig */,
+				6864838F4CCB2721A1ED05EE /* Pods-PalmBoard.release.xcconfig */,
+				175E3CE887B2A04FCBBA8FC8 /* Pods-PalmBoardTests.debug.xcconfig */,
+				D445FA43227A5B29AE14D7E6 /* Pods-PalmBoardTests.release.xcconfig */,
+				39A3A41638E1AEA67EF1EBB4 /* Pods-PalmBoardUITests.debug.xcconfig */,
+				B82F6607E1D7D24DA76455EA /* Pods-PalmBoardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A06CB661F8CA38D0094FD16 = {
+			isa = PBXGroup;
+			children = (
+				3A06CB711F8CA38E0094FD16 /* PalmBoard */,
+				3A06CB891F8CA3910094FD16 /* PalmBoardTests */,
+				3A06CB941F8CA3910094FD16 /* PalmBoardUITests */,
+				3A06CB701F8CA38E0094FD16 /* Products */,
+				15B3BC11ECAB0C5C6BB319A0 /* Pods */,
+				B3831EA7C6CF33FE120D5972 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A06CB701F8CA38E0094FD16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A06CB6F1F8CA38E0094FD16 /* PalmBoard.app */,
+				3A06CB861F8CA3910094FD16 /* PalmBoardTests.xctest */,
+				3A06CB911F8CA3910094FD16 /* PalmBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A06CB711F8CA38E0094FD16 /* PalmBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3A06CB721F8CA38F0094FD16 /* AppDelegate.swift */,
+				3A06CB741F8CA38F0094FD16 /* ViewController.swift */,
+				3A06CB761F8CA38F0094FD16 /* Main.storyboard */,
+				3A06CB7C1F8CA38F0094FD16 /* Assets.xcassets */,
+				3A06CB7E1F8CA38F0094FD16 /* LaunchScreen.storyboard */,
+				3A06CB811F8CA38F0094FD16 /* Info.plist */,
+				3A06CB791F8CA38F0094FD16 /* PalmBoard.xcdatamodeld */,
+				3A906EE61F8E0C4600DF546A /* Group 2220.png */,
+				3A906EE31F8E0C4500DF546A /* Group 2220@2x.png */,
+				3A906EE41F8E0C4600DF546A /* Group 2220@3x.png */,
+				3A906EE51F8E0C4600DF546A /* Group 4081.png */,
+				3A906EE71F8E0C4600DF546A /* Group 4081@2x.png */,
+				3A906EE81F8E0C4600DF546A /* Group 4081@3x.png */,
+				3A06CBA31F8CB4040094FD16 /* Resources */,
+			);
+			path = PalmBoard;
+			sourceTree = "<group>";
+		};
+		3A06CB891F8CA3910094FD16 /* PalmBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A06CB8A1F8CA3910094FD16 /* PalmBoardTests.swift */,
+				3A06CB8C1F8CA3910094FD16 /* Info.plist */,
+			);
+			path = PalmBoardTests;
+			sourceTree = "<group>";
+		};
+		3A06CB941F8CA3910094FD16 /* PalmBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A06CB951F8CA3910094FD16 /* PalmBoardUITests.swift */,
+				3A06CB971F8CA3910094FD16 /* Info.plist */,
+			);
+			path = PalmBoardUITests;
+			sourceTree = "<group>";
+		};
+		3A06CBA31F8CB4040094FD16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A06CBA41F8CB4050094FD16 /* Ubuntu-Bold.ttf */,
+				3A06CBA51F8CB4050094FD16 /* Ubuntu-BoldItalic.ttf */,
+				3A06CBA61F8CB4050094FD16 /* Ubuntu-Italic.ttf */,
+				3A06CBA71F8CB4050094FD16 /* Ubuntu-Light.ttf */,
+				3A06CBA81F8CB4050094FD16 /* Ubuntu-LightItalic.ttf */,
+				3A06CBA91F8CB4050094FD16 /* Ubuntu-Medium.ttf */,
+				3A06CBAA1F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf */,
+				3A06CBAB1F8CB4050094FD16 /* Ubuntu-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3831EA7C6CF33FE120D5972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ECBDDADA1965E41D34FF /* Pods_PalmBoard.framework */,
+				27127E74C312E3D3F9C83CB5 /* Pods_PalmBoardTests.framework */,
+				79D39FF239DD9CDED985B244 /* Pods_PalmBoardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A06CB6E1F8CA38E0094FD16 /* PalmBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A06CB9A1F8CA3910094FD16 /* Build configuration list for PBXNativeTarget "PalmBoard" */;
+			buildPhases = (
+				D056F5146EB086B2ED7D3D13 /* [CP] Check Pods Manifest.lock */,
+				3A06CB6B1F8CA38E0094FD16 /* Sources */,
+				3A06CB6C1F8CA38E0094FD16 /* Frameworks */,
+				3A06CB6D1F8CA38E0094FD16 /* Resources */,
+				C999D1CCCDCFCBF0CCA963A2 /* [CP] Embed Pods Frameworks */,
+				E254DF410FE4FC4EA0069552 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmBoard;
+			productName = PalmBoard;
+			productReference = 3A06CB6F1F8CA38E0094FD16 /* PalmBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A06CB851F8CA3910094FD16 /* PalmBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A06CB9D1F8CA3910094FD16 /* Build configuration list for PBXNativeTarget "PalmBoardTests" */;
+			buildPhases = (
+				F77D5BAABDCC7211FF408CF2 /* [CP] Check Pods Manifest.lock */,
+				3A06CB821F8CA3910094FD16 /* Sources */,
+				3A06CB831F8CA3910094FD16 /* Frameworks */,
+				3A06CB841F8CA3910094FD16 /* Resources */,
+				F9FBE9BD11D97E5F0744A1C0 /* [CP] Embed Pods Frameworks */,
+				2E7476535DBD746DD5157376 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A06CB881F8CA3910094FD16 /* PBXTargetDependency */,
+			);
+			name = PalmBoardTests;
+			productName = PalmBoardTests;
+			productReference = 3A06CB861F8CA3910094FD16 /* PalmBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A06CB901F8CA3910094FD16 /* PalmBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A06CBA01F8CA3910094FD16 /* Build configuration list for PBXNativeTarget "PalmBoardUITests" */;
+			buildPhases = (
+				89CC2EB426CD93C7AD66B8FB /* [CP] Check Pods Manifest.lock */,
+				3A06CB8D1F8CA3910094FD16 /* Sources */,
+				3A06CB8E1F8CA3910094FD16 /* Frameworks */,
+				3A06CB8F1F8CA3910094FD16 /* Resources */,
+				8244CBC8ED520DD645FCB4B6 /* [CP] Embed Pods Frameworks */,
+				D515DAA0AA6CDEECAEAD6B98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A06CB931F8CA3910094FD16 /* PBXTargetDependency */,
+			);
+			name = PalmBoardUITests;
+			productName = PalmBoardUITests;
+			productReference = 3A06CB911F8CA3910094FD16 /* PalmBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A06CB671F8CA38E0094FD16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Franciscan;
+				TargetAttributes = {
+					3A06CB6E1F8CA38E0094FD16 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3A06CB851F8CA3910094FD16 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A06CB6E1F8CA38E0094FD16;
+					};
+					3A06CB901F8CA3910094FD16 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A06CB6E1F8CA38E0094FD16;
+					};
+				};
+			};
+			buildConfigurationList = 3A06CB6A1F8CA38E0094FD16 /* Build configuration list for PBXProject "PalmBoard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A06CB661F8CA38D0094FD16;
+			productRefGroup = 3A06CB701F8CA38E0094FD16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A06CB6E1F8CA38E0094FD16 /* PalmBoard */,
+				3A06CB851F8CA3910094FD16 /* PalmBoardTests */,
+				3A06CB901F8CA3910094FD16 /* PalmBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A06CB6D1F8CA38E0094FD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A06CBB01F8CB4050094FD16 /* Ubuntu-LightItalic.ttf in Resources */,
+				3A06CBAC1F8CB4050094FD16 /* Ubuntu-Bold.ttf in Resources */,
+				3A06CBB21F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf in Resources */,
+				3A06CBB11F8CB4050094FD16 /* Ubuntu-Medium.ttf in Resources */,
+				3A06CBAE1F8CB4050094FD16 /* Ubuntu-Italic.ttf in Resources */,
+				3A06CBAF1F8CB4050094FD16 /* Ubuntu-Light.ttf in Resources */,
+				3A06CBB31F8CB4050094FD16 /* Ubuntu-Regular.ttf in Resources */,
+				3A06CBAD1F8CB4050094FD16 /* Ubuntu-BoldItalic.ttf in Resources */,
+				3A06CB801F8CA38F0094FD16 /* LaunchScreen.storyboard in Resources */,
+				3A06CB7D1F8CA38F0094FD16 /* Assets.xcassets in Resources */,
+				3A06CB781F8CA38F0094FD16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A06CB841F8CA3910094FD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A06CB8F1F8CA3910094FD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E7476535DBD746DD5157376 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoardTests/Pods-PalmBoardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8244CBC8ED520DD645FCB4B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoardUITests/Pods-PalmBoardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CC2EB426CD93C7AD66B8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PalmBoardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C999D1CCCDCFCBF0CCA963A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoard/Pods-PalmBoard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoard/Pods-PalmBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D056F5146EB086B2ED7D3D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PalmBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D515DAA0AA6CDEECAEAD6B98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoardUITests/Pods-PalmBoardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E254DF410FE4FC4EA0069552 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoard/Pods-PalmBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F77D5BAABDCC7211FF408CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PalmBoardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FBE9BD11D97E5F0744A1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PalmBoardTests/Pods-PalmBoardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A06CB6B1F8CA38E0094FD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A06CB751F8CA38F0094FD16 /* ViewController.swift in Sources */,
+				3A06CB731F8CA38F0094FD16 /* AppDelegate.swift in Sources */,
+				3A06CB7B1F8CA38F0094FD16 /* PalmBoard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A06CB821F8CA3910094FD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A06CB8B1F8CA3910094FD16 /* PalmBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A06CB8D1F8CA3910094FD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A06CB961F8CA3910094FD16 /* PalmBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A06CB881F8CA3910094FD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A06CB6E1F8CA38E0094FD16 /* PalmBoard */;
+			targetProxy = 3A06CB871F8CA3910094FD16 /* PBXContainerItemProxy */;
+		};
+		3A06CB931F8CA3910094FD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A06CB6E1F8CA38E0094FD16 /* PalmBoard */;
+			targetProxy = 3A06CB921F8CA3910094FD16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A06CB761F8CA38F0094FD16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A06CB771F8CA38F0094FD16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A06CB7E1F8CA38F0094FD16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A06CB7F1F8CA38F0094FD16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A06CB981F8CA3910094FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A06CB991F8CA3910094FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A06CB9B1F8CA3910094FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50E9195DEB2D99B70946C6E /* Pods-PalmBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBMTLVXULG;
+				INFOPLIST_FILE = PalmBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscan.PalmBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3A06CB9C1F8CA3910094FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6864838F4CCB2721A1ED05EE /* Pods-PalmBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBMTLVXULG;
+				INFOPLIST_FILE = PalmBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscan.PalmBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3A06CB9E1F8CA3910094FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175E3CE887B2A04FCBBA8FC8 /* Pods-PalmBoardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBMTLVXULG;
+				INFOPLIST_FILE = PalmBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscan.PalmBoard.PalmBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PalmBoard.app/PalmBoard";
+			};
+			name = Debug;
+		};
+		3A06CB9F1F8CA3910094FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D445FA43227A5B29AE14D7E6 /* Pods-PalmBoardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBMTLVXULG;
+				INFOPLIST_FILE = PalmBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscan.PalmBoard.PalmBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PalmBoard.app/PalmBoard";
+			};
+			name = Release;
+		};
+		3A06CBA11F8CA3910094FD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A3A41638E1AEA67EF1EBB4 /* Pods-PalmBoardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBMTLVXULG;
+				INFOPLIST_FILE = PalmBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscan.PalmBoard.PalmBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PalmBoard;
+			};
+			name = Debug;
+		};
+		3A06CBA21F8CA3910094FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82F6607E1D7D24DA76455EA /* Pods-PalmBoardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBMTLVXULG;
+				INFOPLIST_FILE = PalmBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscan.PalmBoard.PalmBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PalmBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A06CB6A1F8CA38E0094FD16 /* Build configuration list for PBXProject "PalmBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A06CB981F8CA3910094FD16 /* Debug */,
+				3A06CB991F8CA3910094FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A06CB9A1F8CA3910094FD16 /* Build configuration list for PBXNativeTarget "PalmBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A06CB9B1F8CA3910094FD16 /* Debug */,
+				3A06CB9C1F8CA3910094FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A06CB9D1F8CA3910094FD16 /* Build configuration list for PBXNativeTarget "PalmBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A06CB9E1F8CA3910094FD16 /* Debug */,
+				3A06CB9F1F8CA3910094FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A06CBA01F8CA3910094FD16 /* Build configuration list for PBXNativeTarget "PalmBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A06CBA11F8CA3910094FD16 /* Debug */,
+				3A06CBA21F8CA3910094FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A06CB791F8CA38F0094FD16 /* PalmBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A06CB7A1F8CA38F0094FD16 /* PalmBoard.xcdatamodel */,
+			);
+			currentVersion = 3A06CB7A1F8CA38F0094FD16 /* PalmBoard.xcdatamodel */;
+			path = PalmBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A06CB671F8CA38E0094FD16 /* Project object */;
+}
