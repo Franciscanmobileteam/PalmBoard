@@ -23,6 +23,7 @@
 		3A06CBB11F8CB4050094FD16 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBA91F8CB4050094FD16 /* Ubuntu-Medium.ttf */; };
 		3A06CBB21F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBAA1F8CB4050094FD16 /* Ubuntu-MediumItalic.ttf */; };
 		3A06CBB31F8CB4050094FD16 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06CBAB1F8CB4050094FD16 /* Ubuntu-Regular.ttf */; };
+		3A906EEA1F8E5D5400DF546A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A906EE91F8E5D5300DF546A /* CardView.swift */; };
 		4E3E82516DD0B4F800DC663E /* Pods_PalmBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D39FF239DD9CDED985B244 /* Pods_PalmBoardUITests.framework */; };
 		A344AF5391EA92EB34D8307F /* Pods_PalmBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B76ECBDDADA1965E41D34FF /* Pods_PalmBoard.framework */; };
 		C79A6DF39EB91F3B289C7F0B /* Pods_PalmBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27127E74C312E3D3F9C83CB5 /* Pods_PalmBoardTests.framework */; };
@@ -77,6 +78,7 @@
 		3A906EE61F8E0C4600DF546A /* Group 2220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2220.png"; sourceTree = "<group>"; };
 		3A906EE71F8E0C4600DF546A /* Group 4081@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 4081@2x.png"; sourceTree = "<group>"; };
 		3A906EE81F8E0C4600DF546A /* Group 4081@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 4081@3x.png"; sourceTree = "<group>"; };
+		3A906EE91F8E5D5300DF546A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6864838F4CCB2721A1ED05EE /* Pods-PalmBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-PalmBoard/Pods-PalmBoard.release.xcconfig"; sourceTree = "<group>"; };
 		79D39FF239DD9CDED985B244 /* Pods_PalmBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PalmBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B76ECBDDADA1965E41D34FF /* Pods_PalmBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PalmBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 		3A06CB711F8CA38E0094FD16 /* PalmBoard */ = {
 			isa = PBXGroup;
 			children = (
+				3A906EE91F8E5D5300DF546A /* CardView.swift */,
 				3A06CB721F8CA38F0094FD16 /* AppDelegate.swift */,
 				3A06CB741F8CA38F0094FD16 /* ViewController.swift */,
 				3A06CB761F8CA38F0094FD16 /* Main.storyboard */,
@@ -517,6 +520,7 @@
 			files = (
 				3A06CB751F8CA38F0094FD16 /* ViewController.swift in Sources */,
 				3A06CB731F8CA38F0094FD16 /* AppDelegate.swift in Sources */,
+				3A906EEA1F8E5D5400DF546A /* CardView.swift in Sources */,
 				3A06CB7B1F8CA38F0094FD16 /* PalmBoard.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,6 +688,7 @@
 			baseConfigurationReference = F50E9195DEB2D99B70946C6E /* Pods-PalmBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CBMTLVXULG;
 				INFOPLIST_FILE = PalmBoard/Info.plist;
@@ -701,6 +706,7 @@
 			baseConfigurationReference = 6864838F4CCB2721A1ED05EE /* Pods-PalmBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CBMTLVXULG;
 				INFOPLIST_FILE = PalmBoard/Info.plist;
