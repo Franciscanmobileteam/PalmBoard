@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GNE-of-sPL">
-                                <rect key="frame" x="60" y="55" width="200" height="65"/>
+                                <rect key="frame" x="60" y="55" width="200" height="64.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmboard" translatesAutoresizingMaskIntoConstraints="NO" id="hkR-Ew-AnA">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
@@ -43,7 +43,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We Value Your Care" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFj-8R-wGt">
-                                        <rect key="frame" x="0.0" y="45" width="200" height="20"/>
+                                        <rect key="frame" x="0.0" y="45" width="200" height="19.5"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -51,7 +51,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Enter School Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzv-Fj-2yo">
-                                <rect key="frame" x="0.0" y="233" width="320" height="26"/>
+                                <rect key="frame" x="0.0" y="234" width="320" height="25"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -227,13 +227,13 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Franciscan Public School saharanpur" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twc-zH-iBG">
-                                                            <rect key="frame" x="53" y="5" width="215" height="33"/>
+                                                            <rect key="frame" x="53" y="5" width="215" height="31.5"/>
                                                             <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="14"/>
                                                             <color key="textColor" red="0.22745098039215686" green="0.22745098039215686" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="NKM-IK-A8l">
-                                                            <rect key="frame" x="53" y="43" width="215" height="35"/>
+                                                            <rect key="frame" x="53" y="41.5" width="215" height="35"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FU4-6F-vjx">
                                                                     <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
@@ -387,13 +387,13 @@
                                 <state key="normal" image="Help?"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr. Amit Francis" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0q-PJ-DTP">
-                                <rect key="frame" x="100" y="344.5" width="210" height="23.5"/>
+                                <rect key="frame" x="100" y="345" width="210" height="22.5"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-MediumItalic" family="Ubuntu" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BFT-yd-4s5">
-                                <rect key="frame" x="20" y="401" width="280" height="63.5"/>
+                                <rect key="frame" x="20" y="401" width="280" height="62.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xVM-1d-zxe">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="35"/>
@@ -405,7 +405,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LvI-MI-8wd">
-                                        <rect key="frame" x="86.5" y="35" width="107" height="28.5"/>
+                                        <rect key="frame" x="86.5" y="35" width="107" height="27.5"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Forgot Password">
@@ -425,17 +425,17 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5xK-gk-8Uv">
-                                <rect key="frame" x="90" y="474.5" width="140" height="36"/>
+                                <rect key="frame" x="86.5" y="473.5" width="147" height="35"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7W-X2-FEN">
-                                        <rect key="frame" x="0.0" y="0.0" width="78" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="81" height="35"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="20"/>
                                         <state key="normal" title="Previous">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mab-TL-fT5">
-                                        <rect key="frame" x="98" y="0.0" width="42" height="36"/>
+                                        <rect key="frame" x="101" y="0.0" width="46" height="35"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="20"/>
                                         <state key="normal" title="Next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -518,7 +518,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fdfdhkdhfkudfhufghufdhudfhdf" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R95-YY-4p2">
-                                <rect key="frame" x="10" y="332.5" width="300" height="20"/>
+                                <rect key="frame" x="10" y="332.5" width="300" height="21"/>
                                 <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -546,6 +546,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wuA-WA-n54" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3459.375" y="25.35211267605634"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qIs-Zs-NQI">
+            <objects>
+                <viewController id="8qL-yT-8qu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wcr-6L-1Nv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="W9x-g2-0wO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gPr-r8-Abr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4079" y="32"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Avn-Lc-iXK">
